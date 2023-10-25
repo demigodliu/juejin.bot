@@ -1,0 +1,22 @@
+{
+  "name": "juejin.bot",
+  "version": "1.0.0",
+  "description": "🤖 Automation script for Xitu Juejin Community",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["juejin", "bot"],
+  "author": "Demigodliu",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.14.1",
+    "node-schedule": "^2.1.0",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "nodemailer": "^6.9.0",
+    "pm2": "^5.2.2"
+  }
+}
