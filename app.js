@@ -43,7 +43,6 @@ const main = () => {
 };
 
 app.listen(3000, () => {
-  main();
-  // console.log('[3000]服务器启动成功！');
-  // schedule.scheduleJob('20 36 02 * * *', () => { main() });
+  console.log('[3000]服务器启动成功！');
+  schedule.scheduleJob('01 00 00 * * *', () => { main() });
 });
